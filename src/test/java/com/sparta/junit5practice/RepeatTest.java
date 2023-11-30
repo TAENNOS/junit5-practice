@@ -17,6 +17,7 @@ public class RepeatTest {
     @ParameterizedTest
     @ValueSource(ints = {1, 2, 3, 4, 5, 6, 7, 8, 9})
     void parameterTest(int num) {
+
         System.out.println("5 * num = " + 5 * num);
     }
 }
